@@ -1,16 +1,18 @@
-# Este programa sirve para ...
-def programa_1():
-    max_num = float(input("Introduce un n�mero: " ))
+1.c.
+# Este programa sirve para devolver el número más grande y el promedio de 10
+#números
+def programa_1() :
+    max_num = input("Introduce un número: ")
     sum_nums = max_num
-    Anterior=max_num
-    Creciente=True
-    
-    while cont < 10:
-        num = float(input("Introduce otro n�mero "))
+    i=1
+    while(i<=10):
+        num = input("Introduce otro número ")
         sum_nums =sum_nums+ num
         if num > max_num:
             max_num = num
-        cont=cont+1
-    print("The largest number is:",max_num )
-    print("The average is:",sum_nums/10 )
+        i=i+1
+    print("The largest number is:"+ str(max_num) )
+    print("The average is:"+str(float(sum_nums)/10) )
+   
 programa_1()
+
