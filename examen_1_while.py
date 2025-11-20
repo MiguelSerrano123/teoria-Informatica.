@@ -1,0 +1,16 @@
+# Este programa sirve para ...
+def programa_1():
+    max_num = float(input("Introduce un número: " ))
+    sum_nums = max_num
+    Anterior=max_num
+    Creciente=True
+    
+    while cont < 10:
+        num = float(input("Introduce otro número "))
+        sum_nums =sum_nums+ num
+        if num > max_num:
+            max_num = num
+        cont=cont+1
+    print("The largest number is:",max_num )
+    print("The average is:",sum_nums/10 )
+programa_1()
